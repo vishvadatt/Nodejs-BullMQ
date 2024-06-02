@@ -1,0 +1,35 @@
+{
+  "name": "bullmq-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src --exec ts-node src/app.ts",
+    "build" : "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@bull-board/api": "^5.19.2",
+    "@bull-board/express": "^5.19.2",
+    "@bull-board/ui": "^5.19.2",
+    "bullmq": "^5.7.14",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/ioredis": "^5.0.0",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.13.0",
+    "@types/uuid": "^9.0.8",
+    "nodemon": "^3.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
